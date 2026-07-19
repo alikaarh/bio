@@ -1,92 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alika Risqi Handayani</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:Arial, Helvetica, sans-serif;
-    }
+<title>alikaarh</title>
 
-    body{
-      background:#eef6ff;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      min-height:100vh;
-    }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-    .card{
-      background:white;
-      width:340px;
-      padding:35px;
-      border-radius:20px;
-      text-align:center;
-      box-shadow:0 10px 30px rgba(0,0,0,.08);
-    }
+<style>
 
-    h1{
-      color:#2c3e50;
-      margin-bottom:10px;
-    }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
 
-    p{
-      color:#6b7280;
-      margin-bottom:30px;
-    }
+body{
 
-    a{
-      display:block;
-      text-decoration:none;
-      background:#cfe8ff;
-      color:#1f2937;
-      padding:14px;
-      border-radius:12px;
-      margin:12px 0;
-      font-weight:bold;
-      transition:.3s;
-    }
+background:#f5f5f7;
 
-    a:hover{
-      background:#9fd0ff;
-      transform:translateY(-2px);
-    }
+display:flex;
+justify-content:center;
+align-items:center;
 
-    footer{
-      margin-top:25px;
-      color:#9ca3af;
-      font-size:13px;
-    }
-  </style>
+min-height:100vh;
+
+padding:25px;
+
+animation:fade .8s ease;
+
+}
+
+.card{
+
+width:360px;
+
+text-align:center;
+
+animation:up .9s ease;
+
+}
+
+.logo{
+
+width:78px;
+height:78px;
+
+margin:auto;
+
+margin-bottom:26px;
+
+border-radius:50%;
+
+background:white;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-size:30px;
+
+box-shadow:
+0 8px 25px rgba(0,0,0,.08);
+
+}
+
+h1{
+
+font-size:34px;
+
+font-weight:600;
+
+color:#1d1d1f;
+
+margin-bottom:40px;
+
+letter-spacing:-1px;
+
+}
+
+.link{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-decoration:none;
+
+margin:15px 0;
+
+padding:18px;
+
+border-radius:18px;
+
+background:white;
+
+color:#1d1d1f;
+
+font-size:17px;
+
+font-weight:500;
+
+transition:.25s;
+
+box-shadow:
+0 4px 15px rgba(0,0,0,.06);
+
+}
+
+.link:hover{
+
+transform:translateY(-3px);
+
+background:#ffffff;
+
+box-shadow:
+0 12px 28px rgba(0,0,0,.12);
+
+}
+
+footer{
+
+margin-top:40px;
+
+font-size:13px;
+
+color:#8e8e93;
+
+}
+
+@keyframes fade{
+
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
+
+}
+
+@keyframes up{
+
+from{
+
+opacity:0;
+
+transform:translateY(35px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
 
 <div class="card">
 
-<h1>☁️ Alika</h1>
+<div class="logo">
+☁️
+</div>
 
-<p>Books • Writing • Movies</p>
+<h1>alikaarh</h1>
 
-<a href="https://medium.com/@alikaarh" target="_blank">
+<a class="link" href="https://medium.com/@alikaarh" target="_blank">
 ✍️ Medium
 </a>
 
-<a href="https://www.goodreads.com/user/show/201905824" target="_blank">
+<a class="link" href="https://www.goodreads.com/user/show/201905824" target="_blank">
 📖 Goodreads
 </a>
 
-<a href="https://boxd.it/meIYN" target="_blank">
+<a class="link" href="https://boxd.it/melYN" target="_blank">
 🎬 Letterboxd
 </a>
 
 <footer>
-Made with 🤍
+Designed with  inspired minimalism
 </footer>
 
 </div>
